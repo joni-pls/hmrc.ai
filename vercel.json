@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "backend/api/query_handler.py": {
-      "runtime": "@vercel/python@3.11"
+      "runtime": "@vercel/python@3.12"
     }
   },
   "routes": [
