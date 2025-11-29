@@ -1,0 +1,27 @@
+# --- Python and Virtual Environment ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+
+# --- LLM and RAG specific files ---
+# This ignores the folder where Chroma DB saves its files
+# The path is based on the structure we used: backend/chroma_db/
+backend/chroma_db/
+
+# This ignores the source PDFs that should not be committed (too large)
+# The path is based on the structure we used: backend/data/
+backend/data/
+
+# --- Environment Secrets and Temp Files ---
+# NEVER commit your secrets file!
+.env
+
+# --- JavaScript/Frontend (if applicable) ---
+/node_modules
+/dist
+/build
+
+# --- Vercel/Deployment Files ---
+.vercel/
