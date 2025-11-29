@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "functions": {
-    "backend/api/query_handler.py": {
-      "runtime": "@vercel/python@3.12"
+  "builds": [
+    {
+      "src": "backend/api/query_handler.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.9"
+      }
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/query",
