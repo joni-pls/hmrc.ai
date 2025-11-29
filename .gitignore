@@ -24,4 +24,4 @@ backend/data/
 /build
 
 # --- Vercel/Deployment Files ---
-.vercel/
+.vercel.json/
