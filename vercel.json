@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "functions": {
+    "backend/api/query_handler.py": {
+      "runtime": "python3.11"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/query",
+      "dest": "backend/api/query_handler.py",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/(.*)",
+      "dest": "frontend/$1"
+    }
+  ]
+}
