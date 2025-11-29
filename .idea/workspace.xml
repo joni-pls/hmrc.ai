@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53c937d2-ec01-4cdc-ab91-874e791a0c86" name="Changes" comment="feat: add Vercel configuration for API routing and backend functions">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/query_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/query_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/prepare_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prepare_db.py" afterDir="false" />
-    </list>
+    <list default="true" id="53c937d2-ec01-4cdc-ab91-874e791a0c86" name="Changes" comment="feat: add Vercel configuration for API routing and backend functions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +59,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\Jonathan\\hmrc-workspace\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764414134868</updated>
-      <workItem from="1764422491874" duration="5072000" />
+      <workItem from="1764422491874" duration="5390000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial setup for PDF processing and Chroma database creation&#10;&#10;- Introduced .gitignore to exclude environment and build files&#10;- Created prepare_db.py for loading PDFs, generating embeddings, and creating a Chroma vector store&#10;- Updated requirements.txt with necessary dependencies">
       <option name="closed" value="true" />
