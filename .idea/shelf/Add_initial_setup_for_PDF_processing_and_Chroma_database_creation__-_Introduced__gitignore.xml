@@ -1,0 +1,4 @@
+<changelist name="Add_initial_setup_for_PDF_processing_and_Chroma_database_creation__-_Introduced__gitignore" date="1764425229541" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Add_initial_setup_for_PDF_processing_and_Chroma_database_creation__-_Introduced__gitignore/shelved.patch" />
+  <option name="DESCRIPTION" value="Add initial setup for PDF processing and Chroma database creation  - Introduced .gitignore to exclude environment and build files - Created prepare_db.py for loading PDFs, generating embeddings, and creating a Chroma vector store - Updated requirements.txt with necessary dependencies" />
+</changelist>

@@ -1,0 +1,42 @@
+Index: .env
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.env b/.env
+new file mode 100644
+--- /dev/null	(date 1764425211107)
++++ b/.env	(date 1764425211107)
+@@ -0,0 +1,1 @@
++GOOGLE_API_KEY="AIzaSyAHi99EVkH9Hn0SECEfxBevUAk61TjHP1Q"
+\ No newline at end of file
+Index: vercel.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/vercel.json b/vercel.json
+new file mode 100644
+--- /dev/null	(date 1764425211107)
++++ b/vercel.json	(date 1764425211107)
+@@ -0,0 +1,19 @@
++{
++  "version": 2,
++  "functions": {
++    "backend/api/query_handler.py": {
++      "runtime": "python3.11"
++    }
++  },
++  "routes": [
++    {
++      "src": "/api/query",
++      "dest": "backend/api/query_handler.py",
++      "methods": ["POST"]
++    },
++    {
++      "src": "/(.*)",
++      "dest": "frontend/$1"
++    }
++  ]
++}
+\ No newline at end of file

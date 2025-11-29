@@ -60,8 +60,9 @@ def create_db():
         persist_directory=DB_PATH
     )
 
-    # This persists the database to disk
-    vector_store.persist()
+    # NOTE: vector_store is intentionally unused, its creation saves the data.
+    # We do not need to call .persist() with newer versions of Chroma.
+
     print(f"Successfully created Chroma database in {DB_PATH}")
 
 

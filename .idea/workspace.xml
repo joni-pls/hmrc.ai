@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53c937d2-ec01-4cdc-ab91-874e791a0c86" name="Changes" comment="feat: add Vercel configuration for API routing and backend functions">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/query_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/query_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/prepare_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prepare_db.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "joni-pls"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/joni-pls/hmrc.ai.git",
+    "accountId": "bd9f5e4a-4e22-49a7-a462-82af543ba5a2"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="369M3D5wQrOOUPzHvxvroJfYAjx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/Users/Jonathan/hmrc-workspace/backend/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\hmrc-workspace\backend\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\hmrc-workspace" />
+      <recent name="C:\Users\Jonathan\hmrc-workspace\backend" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PY-252.28238.29" />
+        <option value="bundled-python-sdk-a101402ee41c-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28238.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53c937d2-ec01-4cdc-ab91-874e791a0c86" name="Changes" comment="" />
+      <created>1764414134868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764414134868</updated>
+      <workItem from="1764422491874" duration="5072000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add initial setup for PDF processing and Chroma database creation&#10;&#10;- Introduced .gitignore to exclude environment and build files&#10;- Created prepare_db.py for loading PDFs, generating embeddings, and creating a Chroma vector store&#10;- Updated requirements.txt with necessary dependencies">
+      <option name="closed" value="true" />
+      <created>1764424948645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764424948645</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: update .gitignore to include Vercel configuration file">
+      <option name="closed" value="true" />
+      <created>1764425311210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764425311210</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add Vercel configuration for API routing and backend functions">
+      <option name="closed" value="true" />
+      <created>1764425517609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764425517609</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial setup for PDF processing and Chroma database creation&#10;&#10;- Introduced .gitignore to exclude environment and build files&#10;- Created prepare_db.py for loading PDFs, generating embeddings, and creating a Chroma vector store&#10;- Updated requirements.txt with necessary dependencies" />
+    <MESSAGE value="fix: update .gitignore to include Vercel configuration file" />
+    <MESSAGE value="feat: add Vercel configuration for API routing and backend functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Vercel configuration for API routing and backend functions" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
